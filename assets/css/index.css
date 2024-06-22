@@ -54,7 +54,7 @@ header .top-bar {
   --bs-aspect-ratio: 81.63265306122449%;
 }
 
-.ratio-belyn {
+.ratio-nitro {
   --bs-aspect-ratio: 82.21153846153846%;
 }
 
@@ -123,11 +123,11 @@ header .top-bar {
 /* fade image in while loading and show a spinner as background image (good for progressive images) */
 
 @media screen and (min-width: 992px) {
-  .belyn-navbar.navbar-expand-lg .navbar-nav .nav-link {
+  .nitro-navbar.navbar-expand-lg .navbar-nav .nav-link {
     padding: var(--bs-nav-link-padding-y) 16px;
   }
 
-  .belyn-navbar .belyn-logo {
+  .nitro-navbar .nitro-logo {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
   }
@@ -159,25 +159,26 @@ header .top-bar {
   pointer-events: none;
   height: 16px;
 }
-.belyn-navbar .belyn-logo {
+.nitro-navbar .nitro-logo {
   padding-top: 10px;
   padding-bottom: 10px;
+  max-width: 110px;
 }
 
-.belyn-navbar {
+.nitro-navbar {
   border-bottom: 1px solid rgba(27, 27, 29, 0.08);
 }
-.belyn-navbar .nav-link {
+.nitro-navbar .nav-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   color: #2d2d2f;
   display: inline-flex;
 }
-.belyn-navbar .nav-link:hover {
+.nitro-navbar .nav-link:hover {
   color: var(--second-cl);
 }
-.belyn-navbar .hot {
+.nitro-navbar .hot {
   top: -5px;
   right: -20px;
   background-color: #f44747;
@@ -188,7 +189,7 @@ header .top-bar {
   text-transform: uppercase;
   border-radius: 2px;
 }
-.belyn-navbar .btn-group .button {
+.nitro-navbar .btn-group .button {
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
@@ -200,17 +201,17 @@ header .top-bar {
   justify-content: center;
   align-items: center;
 }
-.belyn-navbar .btn-group {
+.nitro-navbar .btn-group {
   display: flex;
   gap: 10px;
 }
-.belyn-navbar .open-store {
+.nitro-navbar .open-store {
   background: #ffffff;
   box-shadow: 2px 6px 32px rgba(84, 65, 121, 0.2);
   color: var(--primary-cl);
 }
 
-.belyn-navbar .buy-now {
+.nitro-navbar .buy-now {
   background-color: var(--primary-cl);
   color: #fff;
 }
@@ -549,31 +550,31 @@ header .top-bar {
   margin-bottom: 0;
   opacity: 0.7;
 }
-.get-belyn {
+.get-nitro {
   padding-top: 56px;
   padding-bottom: 64px;
 }
-.get-belyn .section-inner .subheading {
+.get-nitro .section-inner .subheading {
   margin-bottom: 32px;
 }
-.get-belyn .belyn-inner {
+.get-nitro .nitro-inner {
   padding: 24px 24px 32px 24px;
   border: 1px solid #e6e6eb;
   border-radius: 8px;
   background: #f8f8fa;
   height: 100%;
 }
-.get-belyn .belyn-img {
+.get-nitro .nitro-img {
   margin-bottom: 24px;
 }
-.get-belyn .belyn-inner .belyn-heading {
+.get-nitro .nitro-inner .nitro-heading {
   color: #2d2d2f;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 8px;
 }
-.get-belyn .belyn-inner .belyn-subheading {
+.get-nitro .nitro-inner .nitro-subheading {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -652,7 +653,7 @@ header .top-bar {
   color: #fff;
   text-transform: uppercase;
 }
-.get-belyn-2 {
+.get-nitro-2 {
   padding-top: 64px;
   padding-bottom: 56px;
 }
@@ -1612,7 +1613,7 @@ table .sell-item span:last-child {
   }
 }
 @media screen and (max-width: 1200px) {
-  .belyn-navbar .btn-group .button {
+  .nitro-navbar .btn-group .button {
     padding: 10px 20px;
   }
   .layer-wrap .layer-heading {
@@ -1721,7 +1722,7 @@ table .sell-item span:last-child {
   .reason {
     padding: 40px 0;
   }
-  .get-belyn {
+  .get-nitro {
     padding: 40px 0;
   }
   .ec-page .col-left .col-inner {
@@ -1732,7 +1733,7 @@ table .sell-item span:last-child {
   .page-demo .page-img {
     margin-bottom: 15px;
   }
-  .belyn-navbar .belyn-logo {
+  .nitro-navbar .nitro-logo {
     padding: 15px 0;
     width: 100px;
   }
@@ -1741,10 +1742,10 @@ table .sell-item span:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .belyn-navbar .hot {
+  .nitro-navbar .hot {
     right: -35px;
   }
-  .belyn-navbar .open-store {
+  .nitro-navbar .open-store {
     box-shadow: 2px 6px 32px rgba(84, 65, 121, 0.3);
   }
   .layer-wrap .layer-group {
@@ -1766,7 +1767,7 @@ table .sell-item span:last-child {
   .navbar-toggler {
     font-size: 13px;
   }
-  .belyn-navbar .belyn-logo {
+  .nitro-navbar .nitro-logo {
     width: 80px;
     padding: 20px 0;
   }
@@ -1835,7 +1836,7 @@ table .sell-item span:last-child {
   .ec-page .install {
     padding: 8px 8px 8px 14px;
   }
-  .belyn-navbar .btn-group .button {
+  .nitro-navbar .btn-group .button {
     width: 100%;
   }
 }

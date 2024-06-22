@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // sticky header
   $(window).scroll(function () {
-    var sticky = $(".belyn-navbar"),
+    var sticky = $(".nitro-navbar"),
       scroll = $(window).scrollTop();
 
     if (scroll >= 46) sticky.addClass("header-sticky");
