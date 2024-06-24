@@ -675,6 +675,10 @@ header .top-bar {
   border: 1px solid #e6e6eb;
   border-radius: 8px;
   background-color: #fff;
+  transition: .25s ease;
+}
+.optimize .col-inner:hover{
+  border-color: #1d1e2c;
 }
 .optimize .title {
   font-family: "Jost";
