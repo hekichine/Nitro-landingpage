@@ -52,10 +52,10 @@ $(document).ready(function () {
   //install app
   $(".install-ec").click(function (e) {
     e.preventDefault();
-    window.open(
-      `https://ecomposer.app/install?shop=${$("#input_install").val()}`,
-      "_blank"
-    );
+    // window.open(
+    //   `https://ecomposer.app/install?shop=${$("#input_install").val()}`,
+    //   "_blank"
+    // );
   });
 });
 let dataProducts = [
