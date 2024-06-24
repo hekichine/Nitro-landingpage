@@ -458,9 +458,13 @@ header .top-bar {
 .page-demo .page-img {
   background: #ffffff;
   box-shadow: 0px 8px 32px rgba(84, 65, 121, 0.1);
-  border-radius: 16px;
-  padding: 16px;
+  /* border-radius: 16px; */
+  /* padding: 16px; */
   margin-bottom: 24px;
+  transition: .25s ease;
+}
+.page-demo .page-inner:hover .page-img{
+  transform: translateY(-10px);
 }
 .page-demo .page-title a {
   font-size: 20px;
@@ -534,6 +538,10 @@ header .top-bar {
   background: #ffffff;
   box-shadow: 4px 6px 32px rgba(84, 65, 121, 0.1);
   border-radius: 16px;
+  transition: .25s ease;
+}
+.reason .reason-inner:hover{
+  box-shadow: 4px 6px 32px rgba(84, 65, 121, 0.2);
 }
 .reason .reason-inner h4 {
   font-size: 20px;
